@@ -19,3 +19,15 @@ DB access: Java persistence API, JPA<br>
 5. 게시물 삭제
 6. 게시물 수정
 7. 게시물 리스트 페이징
+
+
+----------
+# 개발 진행
+
+### 12/9 개발 사항
+1. IntelliJ 설치
+2. MaraiDB 설치
+> mysql -uroot -p 로 maridb 접속
+3. MySQL Workbench 설치
+> homebrew를 통한 maraidb 설치 과정에서 (Error: Cannot install on Intel processor in ARM default prefix (/opt/homebrew)!) 에러가 발생하였고.<br>
+> PATH 설정을 병경하여 해결하였다. export PATH=/usr/local/bin:$PATH

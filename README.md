@@ -27,7 +27,12 @@ DB access: Java persistence API, JPA<br>
 ### 12/9 개발 사항
 1. IntelliJ 설치
 2. MaraiDB 설치
+> homebrew를 통한 maraidb 설치 과정에서 (Error: Cannot install on Intel processor in ARM default prefix (/opt/homebrew)!) 에러가 발생하였고.<br>
+> PATH 설정을 병경하여 해결하였다. 
+> 
+> export PATH=/usr/local/bin:$PATH<br>
+> 
 > mysql -uroot -p 로 maridb 접속
 3. MySQL Workbench 설치
-> homebrew를 통한 maraidb 설치 과정에서 (Error: Cannot install on Intel processor in ARM default prefix (/opt/homebrew)!) 에러가 발생하였고.<br>
-> PATH 설정을 병경하여 해결하였다. export PATH=/usr/local/bin:$PATH
+>DB를 콘솔창에서 관리하면 힘드므로 GUI환경에서 관리하기 위함
+

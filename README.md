@@ -36,3 +36,7 @@ DB access: Java persistence API, JPA<br>
 3. MySQL Workbench 설치
 >DB를 콘솔창에서 관리하면 힘드므로 GUI환경에서 관리하기 위함
 
+
+### 12/11 개발 사항
+1. start.Spring.io 에서 프로젝트 생성
+
